@@ -2,7 +2,6 @@ const axios = require('axios')
 const express = require('express')
 const cheerio = require('cheerio')
 const PORT = 8000
-
 const application = express()
 
 //Scraping here
@@ -22,7 +21,7 @@ axios('https://www.trojmiasto.pl/wiadomosci/')
             })
         })
         console.log(table)       
-    }).catch(err => console.log(err))
+    })
 
 //End of Scraping
 
