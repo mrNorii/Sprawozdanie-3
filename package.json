@@ -1,0 +1,24 @@
+{
+  "name": "sprawozdanie-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrNorii/Sprawozdanie-3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrNorii/Sprawozdanie-3/issues"
+  },
+  "homepage": "https://github.com/mrNorii/Sprawozdanie-3#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.2"
+  }
+}
